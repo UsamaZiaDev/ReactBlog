@@ -55,7 +55,7 @@ export class AuthService {
         }
     }
 
-    async currentUser(){
+    async getCurrentUser(){
         try{
             return await this.account.get()
         }
