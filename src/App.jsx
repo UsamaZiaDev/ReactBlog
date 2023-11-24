@@ -32,7 +32,7 @@ function App() {
   return !loading ? (
       <div>
         <Header/>
-          <main>
+          <main className="container">
             body content...
           </main>
         <Footer/>
